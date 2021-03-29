@@ -275,5 +275,5 @@ SQL>SELECT a.tablespace_name "表空间名",Total/1024/1024 "大小MB",
  where  a.tablespace_name = b.tablespace_name;
 ![QQ截图20210329172352](https://user-images.githubusercontent.com/44339160/112826281-5be7c000-90bf-11eb-8245-8b018ba0a97b.png)
 ![QQ截图20210329172413](https://user-images.githubusercontent.com/44339160/112826284-5e4a1a00-90bf-11eb-9b32-68e506d34ea7.png)
-实验总结：
+实验总结：  
 通过本次实验，我熟练掌握了分区表的创建方法，掌握了各种分区方式的使用场景。同时，加强了自己对Oracle数据库的理解，对于自己的动手操作能力也有一定程度的提升。在实验过程中，我遇到了许多问题，但经过老师与同学们的帮助下，我成功解决了这些问题，十分感谢老师与同学的帮助。
