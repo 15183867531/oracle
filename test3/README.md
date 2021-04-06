@@ -20,7 +20,7 @@ SQL>ALTER USER zjl_res_user QUOTA UNLIMITED ON USERS03;
 SQL>exit  
 ![QQ截图20210329165017](https://user-images.githubusercontent.com/44339160/112825938-ebd93a00-90be-11eb-865d-25083482be8a.png)
 
-2.然后以自己的账号zjl_res_user身份登录,并运行脚本文件test3.sql：  
+2.然后以自己的账号zjl_res_user身份登录,并创建orders表与order_details表：  
 $sqlplus zjl_res_user/123@202.115.82.8/pdborcl  
 ```sql
 declare
@@ -246,7 +246,7 @@ select count(*) from order_details;
 ```
 ![QQ截图20210329171956](https://user-images.githubusercontent.com/44339160/112826006-027f9100-90bf-11eb-8d8f-f580d89c0cf0.png)
 
-3.以system用户运行： 
+3.以system用户运行：  
 set autotrace on
 
 select * from zjl_res_user.orders where order_date  
